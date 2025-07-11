@@ -44,8 +44,8 @@ function App() {
     <div className="min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300">
       <Header toggleDarkMode={toggleDarkMode} />
       <Hero />
-      <Certifications />
       <Projects />
+            <Certifications />
       <About />
       <Contact />
       <Footer />

@@ -3,18 +3,18 @@ import '../css/Projects.css';
 
 const Projects = () => {
   const [projects, setProjects] = useState([]);
-  const [isDark, setIsDark] = useState(true); // Default to dark
+  // const [isDark, setIsDark] = useState(true); // Default to dark
 
-  useEffect(() => {
-    setIsDark(document.documentElement.classList.contains('dark'));
+  // useEffect(() => {
+  //   setIsDark(document.documentElement.classList.contains('dark'));
     
-    const observer = new MutationObserver(() => {
-      setIsDark(document.documentElement.classList.contains('dark'));
-    });
-    observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
+  //   const observer = new MutationObserver(() => {
+  //     setIsDark(document.documentElement.classList.contains('dark'));
+  //   });
+  //   observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
     
-    return () => observer.disconnect();
-  }, []);
+  //   return () => observer.disconnect();
+  // }, []);
 
   useEffect(() => {
     fetch('http://localhost:5000/api/projects')
@@ -26,7 +26,7 @@ const Projects = () => {
         setProjects([
           {
             id: 1,
-            name: "MERN Portfolio Website",
+            name: "LootDrop.com",
             description: "Personal portfolio website showcasing my skills and projects. Built with React frontend, Node.js/Express backend, and modern design principles.",
             technologies: ["React", "Node.js", "Express", "TailwindCSS", "MongoDB"],
             github: "https://github.com/Jesust9140",
@@ -36,7 +36,7 @@ const Projects = () => {
           },
           {
             id: 2,
-            name: "Cookbook CRUD App",
+            name: "Shambles.com",
             description: "Full-stack application for managing recipes and ingredients. Features user authentication, recipe sharing, and pantry management.",
             technologies: ["MongoDB", "Express", "Node.js", "EJS", "JavaScript"],
             github: "https://github.com/Jesust9140/cookbook",
@@ -46,7 +46,17 @@ const Projects = () => {
           },
           {
             id: 3,
-            name: "Samsung Technical Support",
+            name: "BabyMogul.com",
+            description: "Experience providing technical support for Samsung products, troubleshooting software issues, and customer service excellence.",
+            technologies: ["JavaScript", "React", "Node.js", "Express", "MongoDB"],
+            github: "#",
+            demo: "#",
+            featured: false,
+            image: "/images/me.jpeg" // Placeholder
+          },
+          {
+            id: 4,
+            name: "ImageDriving.com",
             description: "Experience providing technical support for Samsung products, troubleshooting software issues, and customer service excellence.",
             technologies: ["Customer Service", "Technical Support", "Windows", "Android"],
             github: "#",
@@ -126,6 +136,8 @@ const Projects = () => {
                     >
                       Live Site
                     </a>
+                        //More buttons can be added here
+
                   )}
                 </div>
               </div>

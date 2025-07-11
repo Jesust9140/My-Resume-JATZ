@@ -40,7 +40,8 @@ const Certifications = () => {
       date: "2020 - 2022",
       description: "Technical support for computers, phones, and tablets",
       badge: "🛠️"
-    }
+    } 
+    //More buttons can be added here
   ];
 
   return (
