@@ -113,3 +113,37 @@ My-Resume-JATZ/
 - **Email**: jesust9140@gmail.com
 - **LinkedIn**: [Jesust9140](https://www.linkedin.com/in/Jesust9140)
 - **GitHub**: [Jesust9140](https://github.com/Jesust9140)
+
+
+
+ RECOMMENDED CERT ORDER
+1. AZ-204 – Azure Developer Associate
+💡 Foundation: Cloud-native app development + deploy MERN stack on Azure
+
+Learn App Services, Functions, CosmosDB, CI/CD, etc.
+
+Helps with real-world deployment & API security
+🕒 4–6 weeks (start here)
+
+2. eJPT v2 – Junior Penetration Tester (Red Team)
+💡 Learn how hackers think: Recon, exploit, privilege escalate
+
+Reinforces network, OS, and app vulnerabilities
+
+Builds your mindset for secure coding and defensive testing later
+🕒 3–5 weeks (right after AZ-204)
+
+3. Blue Team Level 1 (BTL1)
+💡 Defensive security: Logging, SIEM (Splunk), detection, incident response
+
+Complements eJPT by teaching you how to detect what you hacked
+
+Preps you for real-world security analyst or DevSecOps tasks
+🕒 4–6 weeks
+
+4. SC-200 – Microsoft Security Operations Analyst (Optional but 🔥)
+💡 Azure Defender + Sentinel: Threat detection in the cloud
+
+If you're going deeper in cloud security + Blue Teaming
+🕒 3–4 weeks (optional — take after BTL1 if you're headed toward SOC roles)
+
